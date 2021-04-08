@@ -40,25 +40,12 @@ Next, randomly select a subset from the generated files in 'train' for cross val
 ```bash
 python get_val.py
 ````
-Then, put the 'train' and 'val' directories into datasets/YOUR_DATASET_NAME/
-.
-+-- _config.yml
-+-- _drafts
-|   +-- begin-with-the-crazy-ideas.textile
-|   +-- on-simplicity-in-technology.markdown
-+-- _includes
-|   +-- footer.html
-|   +-- header.html
-+-- _layouts
-|   +-- default.html
-|   +-- post.html
+Then, put the 'train', 'val' and 'edge' directories into datasets/YOUR_DATASET_NAME/
+##### Train
 ```bash
-python train.py --sessname user_defined --net HDR_edge_refine
+python train.py --sessname YOUR_SESSNAME --net HDR_edge_refine --train_dir './datasets/YOUR_DATASET_NAME/train' --val_dir './datasets/YOUR_DATASET_NAME/val' --edge_dir './datasets/YOUR_DATASET_NAME/edge'
 ````
-To show results of real images with a trained model
-```bash
-python show.py 
-````
+
 
 
 
