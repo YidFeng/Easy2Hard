@@ -1,7 +1,8 @@
-### Easy2Hard
-The implementation of paper "Easy2Hard: Learning to Handle the Intractables from a Synthetic Dataset for Structure-preserving Image Smoothing". Created by Feng Yidan, from Nanjing University of Aeronautics and Astronautics.
+### Easy2Hard: Learning to Handle the Intractables from a Synthetic Dataset for Structure-preserving Image Smoothing
+Created by Yidan Feng, from Nanjing University of Aeronautics and Astronautics.
 
-### Instructions
+### Introduction
+
 This code is implemented with Python 3.6.7, Pytorch 1.3.1 and CUDA 10.1.
 
 The dataset can be downloaded from (to be updated after publication), which should be put into the 'dataset' folder.
