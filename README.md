@@ -41,6 +41,7 @@ Next, randomly select a subset from the generated files in 'train' for cross val
 python get_val.py
 ````
 Then, put the 'train' and 'val' directories into datasets/YOUR_DATASET_NAME/
+.
 +-- _config.yml
 +-- _drafts
 |   +-- begin-with-the-crazy-ideas.textile
