@@ -68,11 +68,11 @@ class Session:
         if args.net == "Baseline":
             self.net = Baseline(in_c=3, out_c=3, dim=64, num_block=12).cuda()
         elif args.net == "HDC":
-            self.net = HDC(in_c=3, out_c=3, dim=64, num_block=18).cuda()
+            self.net = HDC(in_c=3, out_c=3, dim=64, num_block=20).cuda()
         elif args.net == "HDC_edge":
-            self.net = HDC_edge(in_c=3, out_c=3, dim=64, num_block=18).cuda()
+            self.net = HDC_edge(in_c=3, out_c=3, dim=64, num_block=20).cuda()
         elif args.net == "HDC_edge_refine":
-            self.net = HDC_edge_refine(in_c=3, out_c=3, dim=64, num_block=10).cuda()
+            self.net = HDC_edge_refine(in_c=3, out_c=3, dim=64, num_block=20).cuda()
         else:
             logger.warning("NET NAME NOT EXIST!!! --net should be one of : Baseline, HDC, HDC_edge, HDC_edge_refine")
         self.ssim = SSIM().cuda()
