@@ -13,13 +13,13 @@ The trained model (of JESS-Net): https://drive.google.com/file/d/1R8Fg6MEf99gTMh
 
 SPS ground-truth files: https://drive.google.com/drive/folders/1-nzVGifUfbufTvDB-zfYAU9XRaNWrH3C?usp=sharing
 
-and texture patternes: https://drive.google.com/drive/folders/1OSyBNEuPmDTTWauw9qUEuU1KdT5odF_Y?usp=sharing
+and texture patterns: https://drive.google.com/drive/folders/1OSyBNEuPmDTTWauw9qUEuU1KdT5odF_Y?usp=sharing
 
 Datasets for ground-truth ablation study: https://drive.google.com/drive/folders/18LxdOG06l83W3OgiM0wu8c-nDsONY-oJ?usp=sharing
 
 The trained models for ground-truth ablation study: https://drive.google.com/drive/folders/1EfgX-VDMOyuqRfJfjq7p11O4rKekXdaY?usp=sharing
 
-### Usages
+### Usage
 This code is tested with Python 3.7, Pytorch 1.3.1 and CUDA 10.1.
 #### To test the trained model for structure-preserving image smoothing 
 Download the trained model and put the model file in your model path.
