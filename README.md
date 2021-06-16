@@ -8,7 +8,9 @@ Image smoothing is a prerequisite for many computer vision and graphics applicat
 ### Sources
 
 The following sources can be downloaded fron Google drive:
-(will be updated after publication)
+- dataset: https://drive.google.com/drive/folders/1inuxV8ghABOv60KVc6zY97Ccj0yyJ9uv?usp=sharing
+- trained models for ablation study: https://drive.google.com/drive/folders/1EfgX-VDMOyuqRfJfjq7p11O4rKekXdaY?usp=sharing
+
 ### Usage
 This code is tested with Python 3.7, Pytorch 1.3.1 and CUDA 10.1.
 #### To test the trained model for structure-preserving image smoothing 
@@ -35,7 +37,17 @@ Then, put the 'train', 'val' and 'edge' directories into datasets/YOUR_DATASET_N
 ```bash
 python train.py --sessname YOUR_SESSNAME --net HDR_edge_refine --train_dir './datasets/YOUR_DATASET_NAME/train' --val_dir './datasets/YOUR_DATASET_NAME/val' --edge_dir './datasets/YOUR_DATASET_NAME/edge'
 ````
+### Citation
 
+```BibTex
+@article{feng2021easy2hard,
+  title={Easy2Hard: Learning to Solve the Intractables From a Synthetic Dataset for Structure-Preserving Image Smoothing},
+  author={Feng, Yidan and Deng, Sen and Yan, Xuefeng and Yang, Xin and Wei, Mingqiang and Liu, Ligang},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2021},
+  publisher={IEEE}
+}
+```
 
 
 
