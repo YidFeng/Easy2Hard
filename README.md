@@ -8,7 +8,7 @@ Image smoothing is a prerequisite for many computer vision and graphics applicat
 ### Sources
 
 The following sources can be downloaded fron Google drive:
-- dataset: https://drive.google.com/drive/folders/1inuxV8ghABOv60KVc6zY97Ccj0yyJ9uv?usp=sharing
+- dataset (tx updated): https://drive.google.com/drive/folders/1inuxV8ghABOv60KVc6zY97Ccj0yyJ9uv?usp=sharing   
 - trained models for ablation study: https://drive.google.com/drive/folders/1EfgX-VDMOyuqRfJfjq7p11O4rKekXdaY?usp=sharing
 
 ### Usage
