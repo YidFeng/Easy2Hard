@@ -10,6 +10,7 @@ Image smoothing is a prerequisite for many computer vision and graphics applicat
 The following sources can be downloaded fron Google drive:
 - dataset (tx updated): https://drive.google.com/drive/folders/1inuxV8ghABOv60KVc6zY97Ccj0yyJ9uv?usp=sharing   
 - trained models for ablation study: https://drive.google.com/drive/folders/1EfgX-VDMOyuqRfJfjq7p11O4rKekXdaY?usp=sharing
+- JESS100: https://drive.google.com/drive/folders/1EDqgjFZt5KndZlHjtD2EjpcXvfzT878s?usp=sharing
 
 ### Usage
 This code is tested with Python 3.7, Pytorch 1.3.1 and CUDA 10.1.
