@@ -11,6 +11,7 @@ The following sources can be downloaded fron Google drive:
 - dataset (tx updated): https://drive.google.com/drive/folders/1inuxV8ghABOv60KVc6zY97Ccj0yyJ9uv?usp=sharing   
 - trained models for ablation study: https://drive.google.com/drive/folders/1EfgX-VDMOyuqRfJfjq7p11O4rKekXdaY?usp=sharing
 - JESS100: https://drive.google.com/drive/folders/1EDqgjFZt5KndZlHjtD2EjpcXvfzT878s?usp=sharing
+- trained model of our method (epoch 224_ssim 0.922825_psnr 31.733277): https://drive.google.com/file/d/1bDvOg9fM3r-qAvn-yVf38Y_umjt1E-kR/view?usp=sharing
 
 ### Usage
 This code is tested with Python 3.7, Pytorch 1.3.1 and CUDA 10.1.
