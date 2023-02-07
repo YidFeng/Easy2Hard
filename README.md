@@ -1,5 +1,5 @@
 ### Easy2Hard: Learning to Handle the Intractables from a Synthetic Dataset for Structure-preserving Image Smoothing
-Created by Yidan Feng, from Nanjing University of Aeronautics and Astronautics.
+A work by Yidan Feng as a master student in Nanjing University of Aeronautics and Astronautics (NUAA). The author is now working as a PhD student in the Hong Kong Polytechnic University.
 
 ### Introduction
 ![](intro.png)
